@@ -57,11 +57,11 @@ const FilmSection = () => {
 
           <div className="text-center mt-8">
             <button
-                          onClick={() => navigate("/films")}
-                          className="px-10 py-3 border border-primary text-primary text-sm tracking-[0.15em] uppercase font-sans hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                        >
-                          More Videos
-              </button>
+              onClick={() => navigate("/films")}
+              className="px-10 py-3 border border-primary text-primary text-sm tracking-[0.15em] uppercase font-sans hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+            >
+              More Videos
+            </button>
           </div>
         </div>
       </motion.div>
