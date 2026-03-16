@@ -45,7 +45,13 @@ const films: Film[] = [
     youtubeId: "2VB5UhEp2NI",
     thumbnail: "https://img.youtube.com/vi/2VB5UhEp2NI/maxresdefault.jpg",
   },
+  {
+    title: "Snap Re make of a Short Film",   
+    youtubeId: "34qiHB5cYCU",
+    thumbnail: "https://img.youtube.com/vi/34qiHB5cYCU/maxresdefault.jpg",
+  },
 ];
+
 
 const FilmsPage = () => {
   const navigate = useNavigate();
