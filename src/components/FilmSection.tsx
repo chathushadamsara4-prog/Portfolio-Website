@@ -57,10 +57,12 @@ const FilmSection = () => {
 
           <div className="text-center mt-8">
             <button
-              onClick={() => navigate("/films")}
+              onClick={() =>
+                window.open("https://youtu.be/34qiHB5cYCU", "_blank")
+              }
               className="px-10 py-3 border border-primary text-primary text-sm tracking-[0.15em] uppercase font-sans hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             >
-              More
+              More Videos
             </button>
           </div>
         </div>
